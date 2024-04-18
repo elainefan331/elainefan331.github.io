@@ -3237,3 +3237,17 @@ input, select, textarea {
 body {
 	background-color: rgba(243, 235, 235);
 }
+
+.project-links-container {
+	display: flex;
+	justify-content: end;
+	gap:10px;
+}
+
+@media (max-width:430px) {
+	.skills-img {
+		height: 50px;
+		width: 50px;
+		object-fit: cover;
+	}
+}
